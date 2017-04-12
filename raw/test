@@ -1,0 +1,90 @@
+Logfile for annotate_rnp.py
+
+
+==============================================================================
+Script arguments:
+--------------------------------------------------------------------------------
+infile: /home/FILESERVER5/proteomics/tss38/PROT-SERVER/ANALYSIS/rq214/Trizol_RNA-Ptn crosslink/RNA_Ptn_Trizol.xlsx
+fasta_crap_db: cRAP_FullIdentifiers.fasta
+fasta_db: Human_201701.fasta
+logfile: test
+outfile: /home/FILESERVER5/proteomics/tss38/PROT-SERVER/ANALYSIS/rq214/Trizol_RNA-Ptn crosslink/RNA_Ptn_Trizol_annotated.tsv
+==============================================================================
+
+
+==============================================================================
+Initial file stats
+--------------------------------------------------------------------------------
+# initial peptides: 20878
+# initial proteins: 25527
+# initial SwissProt proteins: 10426
+# initial TrEMBL proteins: 15101
+==============================================================================
+
+
+==============================================================================
+Deciding which TrEMBL proteins to retain:
+--------------------------------------------------------------------------------
+# peptides with only TrEMBL matches: 2181
+# TrEMBL proteins retained as no SwissProt matches for peptide: 2378
+==============================================================================
+
+
+==============================================================================
+Parsimonious method to identify minimal set of proteins to account for all peptides
+--------------------------------------------------------------------------------
+1 remaining protein(s) with 64 peptides
+1 remaining protein(s) with 44 peptides
+1 remaining protein(s) with 40 peptides
+1 remaining protein(s) with 26 peptides
+1 remaining protein(s) with 23 peptides
+1 remaining protein(s) with 20 peptides
+1 remaining protein(s) with 18 peptides
+3 remaining protein(s) with 16 peptides
+5 remaining protein(s) with 15 peptides
+4 remaining protein(s) with 14 peptides
+6 remaining protein(s) with 13 peptides
+15 remaining protein(s) with 11 peptides
+15 remaining protein(s) with 10 peptides
+23 remaining protein(s) with 9 peptides
+46 remaining protein(s) with 8 peptides
+67 remaining protein(s) with 7 peptides
+145 remaining protein(s) with 6 peptides
+284 remaining protein(s) with 5 peptides
+568 remaining protein(s) with 4 peptides
+1164 remaining protein(s) with 3 peptides
+2846 remaining protein(s) with 2 peptides
+6687 remaining protein(s) with 1 peptides
+All peptides are now accounted for
+
+11885 proteins retained
+9596 SwissProt proteins retained
+2289 TrEMBL proteins retained
+
+Note: If not all SwissProt proteins were retained, this means
+these proteins only included peptides which were observed
+in other proteins which had a greater number of peptides
+==============================================================================
+
+
+==============================================================================
+proteins per peptide:
+--------------------------------------------------------------------------------
+19607 peptides (93.91 %) have 1 master proteins
+972 peptides (4.66 %) have 2 master proteins
+184 peptides (0.88 %) have 3 master proteins
+63 peptides (0.30 %) have 4 master proteins
+20 peptides (0.10 %) have 5 master proteins
+12 peptides (0.06 %) have 6 master proteins
+3 peptides (0.01 %) have 7 master proteins
+5 peptides (0.02 %) have 8 master proteins
+4 peptides (0.02 %) have 9 master proteins
+1 peptides (0.00 %) have 13 master proteins
+1 peptides (0.00 %) have 14 master proteins
+1 peptides (0.00 %) have 16 master proteins
+2 peptides (0.01 %) have 18 master proteins
+1 peptides (0.00 %) have 20 master proteins
+1 peptides (0.00 %) have 22 master proteins
+1 peptides (0.00 %) have 100 master proteins
+==============================================================================
+
